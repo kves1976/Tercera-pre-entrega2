@@ -1,0 +1,44 @@
+.Productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    margin: 60px;
+    text-align: center;
+    grid-template-areas: "producto1 producto2 producto3 producto4" "producto5 producto6 producto7 producto8";
+  }
+  
+  .producto1 {
+    grid-area: producto1;
+  }
+  
+  .producto2 {
+    grid-area: producto2;
+  }
+  
+  .producto3 {
+    grid-area: producto3;
+  }
+  
+  .producto4 {
+    grid-area: producto4;
+  }
+  
+  .producto5 {
+    grid-area: producto5;
+  }
+  
+  .producto6 {
+    grid-area: producto6;
+  }
+  
+  .producto7 {
+    grid-area: producto7;
+  }
+  
+  .producto8 {
+    grid-area: producto8;
+  }
+  

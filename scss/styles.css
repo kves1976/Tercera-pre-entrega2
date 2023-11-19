@@ -1,0 +1,360 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.Peluqueria {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.7fr 1.3fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  padding: 30px;
+  grid-template-areas: "fotoprincipal gift1 gift2" "fotoprincipal frentelocal frentelocal";
+}
+
+.fotoprincipal {
+  grid-area: fotoprincipal;
+  justify-self: center;
+}
+
+.gift1 {
+  grid-area: gift1;
+  justify-self: center;
+}
+
+.gift2 {
+  grid-area: gift2;
+  justify-self: center;
+  padding-bottom: 10px;
+}
+
+.frentelocal {
+  grid-area: frentelocal;
+  justify-self: center;
+}
+
+p {
+  font-size: medium;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+}
+
+hr {
+  color: aliceblue;
+}
+
+h2, h3, h4 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+}
+
+h5, h6, .card-title {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+}
+
+img:hover {
+  opacity: 1;
+  border: solid white 2px;
+  border-radius: 5px;
+}
+
+label, p {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #25272a, rgb(146, 153, 158));
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(to right, #000000 52%, #9ca1a9 99%);
+  border: #a4bc92 double 4px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav a {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  margin-left: 15px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  margin-left: 15px;
+}
+
+.nav-item a:hover {
+  background-color: #879d76;
+  color: #040d12;
+  border-radius: 10%;
+}
+
+.SERVICIO {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "table fotoleocortando";
+}
+
+.table {
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  margin: 10 auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.table-striped :hover {
+  transform: scale(1.2, 1.2);
+  transition: all 5s;
+}
+
+.fotoleocortando {
+  grid-area: fotoleocortando;
+  justify-items: center;
+  text-align: center;
+  padding: 60px;
+}
+
+.Productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  margin: 60px;
+  text-align: center;
+  grid-template-areas: "producto1 producto2 producto3 producto4" "producto5 producto6 producto7 producto8";
+}
+
+.producto1 {
+  grid-area: producto1;
+}
+
+.producto2 {
+  grid-area: producto2;
+}
+
+.producto3 {
+  grid-area: producto3;
+}
+
+.producto4 {
+  grid-area: producto4;
+}
+
+.producto5 {
+  grid-area: producto5;
+}
+
+.producto6 {
+  grid-area: producto6;
+}
+
+.producto7 {
+  grid-area: producto7;
+}
+
+.producto8 {
+  grid-area: producto8;
+}
+
+.presentacion p {
+  font-size: x-large;
+  text-align: center;
+}
+
+.Orígenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "presentacion imagenleo";
+  margin: 30px;
+}
+
+.presentacion {
+  grid-area: presentacion;
+  justify-self: center;
+}
+
+.imagenleo {
+  grid-area: imagenleo;
+  justify-self: center;
+  padding: auto;
+}
+
+.Contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "contactanos mapagoogle";
+}
+
+.contactanos {
+  grid-area: contactanos;
+  justify-self: center;
+}
+
+.mapagoogle {
+  grid-area: mapagoogle;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.footer {
+  background-color: #040d12;
+  margin: 20px;
+  padding: 20px;
+  border: #a4bc92 double 1px;
+  margin: 0%;
+  padding: 0%;
+}
+.footer nav ul li a {
+  margin: 5px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  border-radius: 10%;
+}
+.footer a:hover {
+  background-color: #879d76;
+  color: #040d12;
+  border-radius: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .Peluqueria {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "fotoprincipal" "gift1" "gift2" "frentelocal";
+  }
+}
+@media screen and (max-width: 320px) {
+  .Peluqueria {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "fotoprincipal" "gift1" "gift2" "frentelocal";
+  }
+}
+@media screen and (max-width: 768px) {
+  .Productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    text-align: center;
+    grid-template-areas: "producto1 producto2" "producto3 producto4" "producto5 producto6" "producto7 producto8";
+  }
+}
+@media screen and (max-width: 320px) {
+  .Productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    text-align: center;
+    grid-template-areas: "producto1" "producto2" "producto3" "producto4" "producto5" "producto6" "producto7" "producto8";
+  }
+}
+@media screen and (max-width: 768px) {
+  .Orígenes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "presentacion imagenleo" "carousel-item imagenleo";
+  }
+}
+@media screen and (max-width: 320px) {
+  .Orígenes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "presentacion" "carousel-item" "imagenleo";
+  }
+}
+@media screen and (max-width: 768px) {
+  .SERVICIO {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    text-align: center;
+    grid-template-areas: "table-striped" "fotoleocortando";
+  }
+}
+@media screen and (max-width: 320px) {
+  .SERVICIO {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    text-align: center;
+    grid-template-areas: "table-striped" "fotoleocortando";
+  }
+}
+@media screen and (max-width: 768px) {
+  .Contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "contactanos mapagoogle";
+  }
+  .contactanos {
+    grid-area: contactanos;
+    justify-self: center;
+  }
+  .mapagoogle {
+    grid-area: mapagoogle;
+    justify-self: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "contactanos" "mapagoogle";
+  }
+}/*# sourceMappingURL=styles.css.map */

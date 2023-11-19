@@ -1,0 +1,26 @@
+.header {
+    background: linear-gradient(to right, #000000 52%, #9ca1a9 99%);
+    border: #a4bc92 double 4px;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .nav a {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin-left: 15px;
+  }
+  
+  .nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin-left: 15px;
+  }
+
+  .nav-item a:hover {
+    background-color: #879d76;
+    color: #040d12;
+    border-radius: 10%;
+  }
+    
+ 
